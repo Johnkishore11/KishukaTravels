@@ -79,8 +79,8 @@ const Contact = () => {
                         <p className="text-gray-600 leading-relaxed text-sm">
                             Send us your queries and we'll reply within 24 hours.
                         </p>
-                        <a href="mailto:support@captaintravels.com" className="text-lg font-bold text-green-600 mt-2 hover:underline">
-                            support@captaintravels.com
+                        <a href="mailto:support@kishukatravels.com" className="text-lg font-bold text-green-600 mt-2 hover:underline">
+                            support@kishukatravels.com
                         </a>
                     </div>
                 </div>

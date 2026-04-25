@@ -40,7 +40,7 @@ const Feedback = () => {
             <div className="bg-white p-8 rounded-lg shadow-xl max-w-lg w-full">
                 <div className="text-center mb-8">
                     <h2 className="text-3xl font-bold text-gray-800">We Value Your Feedback</h2>
-                    <p className="text-gray-500 mt-2">Please share your experience with Captain Travels</p>
+                    <p className="text-gray-500 mt-2">Please share your experience with Kishuka Travels</p>
                 </div>
 
                 {status.message && (

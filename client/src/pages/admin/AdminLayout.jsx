@@ -55,7 +55,7 @@ const AdminLayout = () => {
                     <div className="flex items-center gap-3">
                         <div className="w-9 h-9 bg-orange-500 rounded-lg flex items-center justify-center font-bold text-white text-sm">CT</div>
                         <div>
-                            <p className="font-bold text-white leading-tight">Captain Travels</p>
+                            <p className="font-bold text-white leading-tight">Kishuka Travels</p>
                             <p className="text-xs text-gray-400">Admin Panel</p>
                         </div>
                     </div>

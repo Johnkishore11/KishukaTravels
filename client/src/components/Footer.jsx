@@ -10,10 +10,10 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div className="space-y-6">
                         <Link to="/" className="flex items-center gap-2">
-                            <img src="/ctlogo.jpeg" alt="Captain Travels Logo" className="h-16 w-auto object-contain" />
+                            <img src="/ctlogo.jpeg" alt="Kishuka Travels Logo" className="h-16 w-auto object-contain" />
                         </Link>
                         <p className="text-gray-600 text-sm leading-relaxed">
-                            Book <span className="text-primary font-bold">Captain Travels</span> Bus tickets online in website and from your mobile with few easy steps.
+                            Book <span className="text-primary font-bold">Kishuka Travels</span> Bus tickets online in website and from your mobile with few easy steps.
                         </p>
                         <div className="pt-4">
                             <Link to="/my-bookings" className="text-sm font-medium text-primary hover:text-orange-700 transition flex items-center gap-1">
@@ -66,7 +66,7 @@ const Footer = () => {
                                 <div className="text-primary">
                                     <Mail size={18} />
                                 </div>
-                                <a href="mailto:support@captaintravels.com" className="group-hover:text-gray-900 transition-colors">support@captaintravels.com</a>
+                                <a href="mailto:support@kishukatravels.com" className="group-hover:text-gray-900 transition-colors">support@kishukatravels.com</a>
                             </li>
                         </ul>
                     </div>
@@ -102,7 +102,7 @@ const Footer = () => {
                     <div className="relative z-10 hidden md:block">
                         <img
                             src="https://s3.rdbuz.com/web/images/homeV2/app-install/app-install-img.png"
-                            alt="Captain Travels App"
+                            alt="Kishuka Travels App"
                             className="h-64 w-auto object-contain transform translate-y-6 hover:translate-y-4 transition-transform duration-500"
                         />
                     </div>

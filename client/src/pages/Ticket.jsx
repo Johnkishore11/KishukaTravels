@@ -40,7 +40,7 @@ const Ticket = () => {
             <div className="container mx-auto max-w-3xl bg-white rounded-lg shadow-xl overflow-hidden print:shadow-none">
                 <div className="bg-primary text-white p-6 flex justify-between items-center">
                     <div>
-                        <h2 className="text-xl font-bold">Captain Travels</h2>
+                        <h2 className="text-xl font-bold">Kishuka Travels</h2>
                         <p className="text-sm opacity-80">E-Ticket</p>
                     </div>
                     <div className="text-right">

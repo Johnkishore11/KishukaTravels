@@ -101,7 +101,7 @@ const Home = () => {
                             <h2 className="text-sm font-bold tracking-widest text-primary uppercase mb-3">Signature Perks</h2>
                             <h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-8 leading-tight">Setting the Standard in Comfort</h3>
                             <p className="text-gray-600 mb-10 text-lg leading-relaxed">
-                                Experience a new era of bus travel where comfort meets convenience. Captain Travels is committed to providing a secure, punctual, and absolutely relaxing journey from start to finish.
+                                Experience a new era of bus travel where comfort meets convenience. Kishuka Travels is committed to providing a secure, punctual, and absolutely relaxing journey from start to finish.
                             </p>
 
                             <div className="space-y-6">

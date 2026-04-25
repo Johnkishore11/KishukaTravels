@@ -216,7 +216,7 @@ const generateTicket = asyncHandler(async (req, res) => {
     res.setHeader('Content-Disposition', `attachment; filename=ticket-${booking.PNR}.pdf`);
     doc.pipe(res);
 
-    doc.fontSize(20).text('Captain Travels - E-Ticket', { align: 'center' });
+    doc.fontSize(20).text('Kishuka Travels - E-Ticket', { align: 'center' });
     doc.moveDown();
     doc.fontSize(12).text(`PNR: ${booking.PNR}`);
     doc.text(`Passenger: ${booking.passengerDetails[0].name}`);
@@ -330,7 +330,7 @@ const downloadTicketByPNR = asyncHandler(async (req, res) => {
     res.setHeader('Content-Disposition', `attachment; filename=ticket-${booking.PNR}.pdf`);
     doc.pipe(res);
 
-    doc.fontSize(20).text('Captain Travels - E-Ticket', { align: 'center' });
+    doc.fontSize(20).text('Kishuka Travels - E-Ticket', { align: 'center' });
     doc.moveDown();
     doc.fontSize(12).text(`PNR: ${booking.PNR}`);
     doc.text(`Passenger: ${booking.passengerDetails[0].name}`);

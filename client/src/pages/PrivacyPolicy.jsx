@@ -4,11 +4,11 @@ const PrivacyPolicy = () => {
     return (
         <div className="min-h-screen bg-gray-100 py-12 px-4">
             <div className="container mx-auto max-w-4xl bg-white p-8 rounded-lg shadow-md mt-6">
-                <h1 className="text-3xl font-bold mb-8 text-gray-800 border-b pb-4">Captain Travels – Privacy Policy</h1>
+                <h1 className="text-3xl font-bold mb-8 text-gray-800 border-b pb-4">Kishuka Travels – Privacy Policy</h1>
                 
                 <div className="space-y-6 text-gray-700 leading-relaxed">
                     <p>
-                        Captain Travels operates this website to provide online bus booking and travel-related services. This service is developed and maintained by Kishore J.
+                        Kishuka Travels operates this website to provide online bus booking and travel-related services. This service is developed and maintained by Kishore J.
                     </p>
                     <p>
                         This Privacy Policy explains how we collect, use, and protect your personal information when you use our services.
@@ -115,8 +115,8 @@ const PrivacyPolicy = () => {
                         <h2 className="text-xl font-semibold text-gray-800 mb-3 mt-8">10. Contact Us</h2>
                         <p className="mb-2">If you have any questions, concerns, or suggestions regarding this Privacy Policy, please contact:</p>
                         <div className="bg-gray-50 p-4 rounded-md inline-block border border-gray-100">
-                            <p className="font-semibold text-gray-800">Captain Travels Support Team</p>
-                            <p className="flex items-center gap-2 mt-2">📧 <a href="mailto:support@captaintravels.com" className="text-primary hover:underline">support@captaintravels.com</a></p>
+                            <p className="font-semibold text-gray-800">Kishuka Travels Support Team</p>
+                            <p className="flex items-center gap-2 mt-2">📧 <a href="mailto:support@kishukatravels.com" className="text-primary hover:underline">support@kishukatravels.com</a></p>
                             <p className="flex items-center gap-2 mt-1">📞 <span>+91 98765 43210</span></p>
                         </div>
                     </section>

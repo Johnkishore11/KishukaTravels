@@ -4,7 +4,7 @@ const FAQ = () => {
     return (
         <div className="min-h-screen bg-gray-100 py-12 px-4">
             <div className="container mx-auto max-w-4xl bg-white p-8 rounded-lg shadow-md mt-6">
-                <h1 className="text-3xl font-bold mb-8 text-gray-800 border-b pb-4">Captain Travels – Frequently Asked Questions (FAQs)</h1>
+                <h1 className="text-3xl font-bold mb-8 text-gray-800 border-b pb-4">Kishuka Travels – Frequently Asked Questions (FAQs)</h1>
                 
                 <div className="space-y-8 text-gray-700 leading-relaxed">
                     <div className="space-y-6">
@@ -15,7 +15,7 @@ const FAQ = () => {
                             <ul className="list-disc pl-6 space-y-1">
                                 <li>Banks may not always provide a reason for failed transactions.</li>
                                 <li>In some cases, the amount may be debited but the transaction still shows as failed.</li>
-                                <li>If a transaction is marked as failed, Captain Travels does not receive the payment, and hence cannot process refunds directly.</li>
+                                <li>If a transaction is marked as failed, Kishuka Travels does not receive the payment, and hence cannot process refunds directly.</li>
                                 <li>The transaction status is automated, and successful payments are almost always confirmed instantly.</li>
                             </ul>
                         </div>
@@ -96,7 +96,7 @@ const FAQ = () => {
                             <div className="bg-green-50 p-4 rounded-md border border-green-100">
                                 <p className="flex items-start gap-2">
                                     <span>📩</span> 
-                                    <span>Please contact the Captain Travels management office directly via email. <br/> Your concerns will be reviewed and addressed by the appropriate team.</span>
+                                    <span>Please contact the Kishuka Travels management office directly via email. <br/> Your concerns will be reviewed and addressed by the appropriate team.</span>
                                 </p>
                             </div>
                         </div>

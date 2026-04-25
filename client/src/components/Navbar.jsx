@@ -13,7 +13,7 @@ const Navbar = () => {
                 {/* Logo Section */}
                 <div className="flex items-center gap-8">
                     <Link to="/" className="flex items-center gap-2">
-                        <img src="/ctlogo.jpeg" alt="Captain Travels Logo" className="h-12 w-auto object-contain" />
+                        <img src="/ctlogo.jpeg" alt="Kishuka Travels Logo" className="h-12 w-auto object-contain" />
                     </Link>
                 </div>
 

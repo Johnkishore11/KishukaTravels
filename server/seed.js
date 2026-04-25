@@ -41,7 +41,7 @@ const seedData = async () => {
 
         // Create Bus
         const bus = await Bus.create({
-            busName: 'Captain Lux',
+            busName: 'Kishuka Lux',
             busNumber: 'MH 12 AB 1234',
             busType: 'AC Sleeper',
             totalSeats: 30,
