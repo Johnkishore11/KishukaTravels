@@ -15,12 +15,13 @@ const authUser = asyncHandler(async (req, res) => {
             res.status(403);
             throw new Error('Your account has been blocked. Please contact support.');
         }
-        generateToken(res, user._id);
+        const token = generateToken(res, user._id);
         res.json({
             _id: user._id,
             name: user.name,
             email: user.email,
             role: user.role,
+            token: token,
         });
     } else {
         res.status(401);
@@ -43,12 +44,13 @@ const registerUser = asyncHandler(async (req, res) => {
     const user = await User.create({ name, email, password, phone });
 
     if (user) {
-        generateToken(res, user._id);
+        const token = generateToken(res, user._id);
         res.status(201).json({
             _id: user._id,
             name: user.name,
             email: user.email,
             role: user.role,
+            token: token,
         });
     } else {
         res.status(400);
